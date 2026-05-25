@@ -41,3 +41,28 @@ print (entero is entero)
 print (a and b)
 print (a or b)
 print (not a)
+
+#condicionales#
+autorizado = True
+if autorizado:
+    print ("Acceso permitido")
+else:    
+    print ("Acceso denegado")
+
+
+
+if entero == 9:
+    print ("El número es 9")
+elif entero == 10:
+    print ("El número es 10")
+else:   
+    print ("El número no es ni 9 ni 10")
+
+color = "rojo"
+match color:
+    case "rojo":
+        print ("El color es rojo")
+    case "azul":
+        print ("El color es azul")
+    case _:
+        print ("El color no es ni rojo ni azul")
