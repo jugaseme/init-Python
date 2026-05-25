@@ -66,3 +66,32 @@ match color:
         print ("El color es azul")
     case _:
         print ("El color no es ni rojo ni azul")
+
+#funciones#
+def sumar (primero , segundo):
+    resultado = primero + segundo
+    return resultado
+    
+sumar (3, 5)
+
+#loops#
+animales = ["perro", "gato", "conejo"]
+for animal in animales:
+    print (animal)
+
+ 
+
+def multiplicador (primero, segundo):
+    print (primero * segundo)
+
+numeros =[1,23,23,54,23,54,23,54,23,54]
+
+for numero in numeros:
+    multiplicador (numero, 2)
+
+emergencia = 15
+
+while entero < emergencia:
+    print (entero)
+    entero += 1
+
