@@ -25,3 +25,19 @@ multiplicacion = a * b
 division = a / b
 print ("suma:", suma)
 print ("resta:", resta)
+
+#comparativos#
+print (a == b )
+print (a > b)
+print (a < b)
+print (a >= b)
+print (a <= b)
+print (a != b) 
+
+entero = 10
+print (entero is entero)
+
+#operadores logicos#
+print (a and b)
+print (a or b)
+print (not a)
