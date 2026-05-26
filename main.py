@@ -95,3 +95,6 @@ while entero < emergencia:
     print (entero)
     entero += 1
 
+import modulo
+
+modulo.restar(10, 5)
